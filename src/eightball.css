@@ -1,0 +1,49 @@
+.component-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.eight-ball-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.eight-ball-message {
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+#green {
+    background-color: green;
+}
+
+#goldenrod {
+    background-color: goldenrod;
+}
+
+#red {
+    background-color: red;
+}
+
+#black {
+    background-color: black;
+}
+
+.reset-button {
+    height: 30px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
